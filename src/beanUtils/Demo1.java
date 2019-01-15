@@ -35,8 +35,8 @@ public class Demo1 {
         Person p = new Person();
         BeanUtils.setProperty(p, "name", name);
         BeanUtils.setProperty(p, "password", password);
-        BeanUtils.setProperty(p, "age", age); // 只支持8种基本数据类型
-        BeanUtils.setProperty(p, "birthday", birthday); // 只支持8种基本数据类型
+        BeanUtils.setProperty(p, "age", age); // ????8?????????????
+        BeanUtils.setProperty(p, "birthday", birthday); // ????8?????????????
 
         System.out.println(p.getAge());
 
@@ -57,7 +57,7 @@ public class Demo1 {
                 }
 
                 if (!(o instanceof String)) {
-                    throw new ConversionException("只支持String的转化！");
+                    throw new ConversionException("????String???????");
                 }
 
                 String str = (String) o;
@@ -78,8 +78,8 @@ public class Demo1 {
         Person p = new Person();
         BeanUtils.setProperty(p, "name", name);
         BeanUtils.setProperty(p, "password", password);
-        BeanUtils.setProperty(p, "age", age); // 只支持8种基本数据类型
-        BeanUtils.setProperty(p, "birthday", birthday); // 只支持8种基本数据类型
+        BeanUtils.setProperty(p, "age", age); // ????8?????????????
+        BeanUtils.setProperty(p, "birthday", birthday); // ????8?????????????
 
         Date a = p.getBirthday();
         System.out.println(a.toLocaleString());
@@ -98,8 +98,8 @@ public class Demo1 {
         Person p = new Person();
         BeanUtils.setProperty(p, "name", name);
         BeanUtils.setProperty(p, "password", password);
-        BeanUtils.setProperty(p, "age", age); // 只支持8种基本数据类型
-        BeanUtils.setProperty(p, "birthday", birthday); // 只支持8种基本数据类型
+        BeanUtils.setProperty(p, "age", age); // ????8?????????????
+        BeanUtils.setProperty(p, "birthday", birthday); // ????8?????????????
 
         Date a = p.getBirthday();
         System.out.println(a.toString());
@@ -122,7 +122,7 @@ public class Demo1 {
                 }
 
                 if (!(o instanceof String)) {
-                    throw new ConversionException("只支持String的转化！");
+                    throw new ConversionException("????String???????");
                 }
 
                 String str = (String) o;
